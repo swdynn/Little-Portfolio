@@ -1,0 +1,26 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.Icons {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Icons a {
+    color: black;
+    text-decoration: none;
+    transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.Icons a i {
+    font-size: 100px;
+}
+
+.Icons a:hover {
+    transform: scale(1.3);
+}
